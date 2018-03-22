@@ -1,0 +1,44 @@
+catch (1.10.0-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+
+ -- Nicolas Dandrimont <olasd@debian.org>  Thu, 22 Mar 2018 14:55:45 +0100
+
+catch (1.10.0-1) unstable; urgency=medium
+
+  * New upstream version 1.10.0 (Closes: #875756)
+  * Update Vcs-* fields
+  * debhelper 10
+  * Standards-Version 4.1.0
+  * Build-Depends cmake
+  * Build-Depends g++ to avoid clang bug #871011
+
+ -- Jérémy Lal <kapouer@melix.org>  Thu, 14 Sep 2017 13:59:44 +0200
+
+catch (1.2.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.2.0
+  * Upstream now committed to semantic versioning
+
+ -- Jérémy Lal <kapouer@melix.org>  Mon, 29 Jun 2015 21:20:41 +0200
+
+catch (1.1.3+gitc51e8681-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.1.3+gitc51e8681 (Closes: #787187).
+  * Use new version scheme and fix get-orig-source
+  * Document get-orig-source in copyright
+  * Standards-Version 3.9.6
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 31 May 2015 15:39:57 +0200
+
+catch (1.0+m10git1e2f1d16-1) unstable; urgency=low
+
+  * Upstream update, build 10. Use ordered version number. 
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 15 Sep 2013 16:39:43 +0200
+
+catch (1.0+gitf7378eeb-1) unstable; urgency=low
+
+  * Initial release (Closes: #722908)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 14 Sep 2013 16:47:31 +0200

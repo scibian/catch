@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_build:
+	cp single_include/catch.hpp single_include/catch.hpp.bak
+	python scripts/generateSingleHeader.py nobump
+
+override_dh_clean:
+	if [ -f single_include/catch.hpp.bak ]; then \
+		mv -f single_include/catch.hpp.bak single_include/catch.hpp; \
+	fi;
+	dh_clean
+
