@@ -1,6 +1,12 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/philsquared/Catch
 
+Files: debian/*
+Copyright: 2012 Two Blue Cubes Ltd. All rights reserved.
+ Phil Nash <github@philnash.me>
+ 2021 Scibian Project <legal@scibian.org>
+License: BSL-1.0
+
 Files: *
 Copyright: 2012 Two Blue Cubes Ltd. All rights reserved.
  Phil Nash <github@philnash.me>
